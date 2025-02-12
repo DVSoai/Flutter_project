@@ -18,6 +18,7 @@ A working API key from Stripe (store it in a .env file)
 1️⃣ Clone the repository
 
 git clone https://github.com/your-repo/flutter-stripe-payment.git
+
 cd flutter-stripe-payment
 
 2️⃣ Install dependencies

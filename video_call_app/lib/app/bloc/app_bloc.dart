@@ -43,9 +43,8 @@ class AppBloc extends Bloc<AppEvent, AppState> {
       emit(AppState.authenticated(user));
       try {
         ZegoUIKitPrebuiltCallInvitationService().init(
-          appID: 407423114,
-          appSign:
-              'd44f1a5449b219f874c013f1d4d5f604c2edafb21df93880448953ff7249a2ef',
+          appID: int.parse(Env.zegoAppId),
+          appSign: Env.zegoAppSign,
           userID: user.id,
           userName: user.name,
           plugins: [ZegoUIKitSignalingPlugin()],

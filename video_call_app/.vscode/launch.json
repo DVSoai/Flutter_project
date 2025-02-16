@@ -1,0 +1,125 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "video_call_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "video_call_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "video_call_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "app_ui",
+            "cwd": "packages\\app_ui",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app_ui (profile mode)",
+            "cwd": "packages\\app_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app_ui (release mode)",
+            "cwd": "packages\\app_ui",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "env",
+            "cwd": "packages\\env",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "env (profile mode)",
+            "cwd": "packages\\env",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "env (release mode)",
+            "cwd": "packages\\env",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "firebase_authentication_client",
+            "cwd": "packages\\firebase_authentication_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "firebase_authentication_client (profile mode)",
+            "cwd": "packages\\firebase_authentication_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "firebase_authentication_client (release mode)",
+            "cwd": "packages\\firebase_authentication_client",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "form_fields",
+            "cwd": "packages\\form_fields",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "form_fields (profile mode)",
+            "cwd": "packages\\form_fields",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "form_fields (release mode)",
+            "cwd": "packages\\form_fields",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "user_repository",
+            "cwd": "packages\\user_repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "user_repository (profile mode)",
+            "cwd": "packages\\user_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "user_repository (release mode)",
+            "cwd": "packages\\user_repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
